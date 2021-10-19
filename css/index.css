@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+main {
+  background-image: linear-gradient(to bottom, black, #00082b);
+  background-size: 200vh 200vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+h1 {
+  font-size: 400%;
+  color: khaki;
+  font-style: italic;
+  font-family: 'Racing Sans One', cursive; }
+
+h2 {
+  font-family: 'Racing Sans One', cursive; }
+
+/* HEADER */
+header {
+  max-height: 500px;
+  background-color: saddlebrown; }
+
+.BarraDeNav {
+  height: 100px;
+  display: flex; }
+  .BarraDeNav ul {
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    list-style: none;
+    font-size: 0;
+    text-decoration: none;
+    text-align: center; }
+    .BarraDeNav ul li {
+      display: inline-block;
+      margin: 20px; }
+      .BarraDeNav ul li a {
+        padding: 7px 14px;
+        text-decoration: none;
+        font-size: xx-large;
+        color: khaki; }
+
+.Logo img {
+  margin: 7px 5px;
+  width: 25%; }
+
+.BarraDeNav ul ul {
+  position: absolute;
+  display: none; }
+
+.BarraDeNav ul ul li {
+  display: block; }
+
+.BarraDeNav ul li ul li a {
+  color: black;
+  font-size: 200%; }
+
+.BarraDeNav ul li:hover > ul {
+  display: block;
+  background-color: saddlebrown;
+  width: 150px; }
+
+table thead {
+  height: 500px;
+  color: saddlebrown; }
+
+/* /HEADER */
+@media only screen and (min-width: 1200px) {
+  header {
+    max-height: 500px;
+    background-color: saddlebrown; }
+  .BarraDeNav {
+    height: 100px;
+    display: flex; }
+  .Logo img {
+    margin: 15px 8px;
+    width: 80%; }
+  .BarraDeNav ul {
+    justify-content: center;
+    height: 100px;
+    width: 400%;
+    margin-top: 25px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center; }
+  .BarraDeNav ul li {
+    display: inline-block;
+    margin: 10px; }
+  .BarraDeNav ul li a {
+    padding: 7px 14px;
+    text-decoration: none;
+    font-size: 30px;
+    color: khaki; }
+  .Inicio {
+    display: grid;
+    height: 850px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 40% 10% 25% 25%;
+    background-image: linear-gradient(to bottom, black, #00082b);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-template-areas: "portada portada portada portada" ". titulo titulo ." ". video video ." ". video video ."; }
+  .inicio__carrusel1 {
+    grid-area: portada; }
+  .inicio__carrusel1 img {
+    width: 100%; }
+  .inicio__Video {
+    grid-area: video;
+    width: 100%;
+    height: 100%; }
+  .inicio__Video video {
+    width: 100%;
+    height: 100%; } }
+
+@media only screen and (max-width: 780px) {
+  header {
+    max-height: 500px;
+    background-color: saddlebrown; }
+  .BarraDeNav {
+    height: 100px;
+    display: flex; }
+  .Logo img {
+    margin: 15px 8px;
+    width: 80%; }
+  .BarraDeNav ul {
+    justify-content: center;
+    height: 100px;
+    width: 400%;
+    margin-top: 25px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center; }
+  .BarraDeNav ul li {
+    display: inline-block;
+    margin: 10px; }
+  .BarraDeNav ul li a {
+    padding: 7px 14px;
+    text-decoration: none;
+    font-size: 15px;
+    color: khaki; }
+  .Inicio {
+    display: grid;
+    height: 850px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 40% 10% 25% 25%;
+    background-image: linear-gradient(to bottom, black, #00082b);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-template-areas: "portada portada portada portada" ". titulo titulo ." ". video video ." ". video video ."; }
+  .inicio__carrusel1 {
+    grid-area: portada; }
+  .inicio__carrusel1 img {
+    width: 100%; }
+  .inicio__Video {
+    grid-area: video;
+    width: 100%;
+    height: 100%; }
+  .inicio__Video video {
+    width: 100%;
+    height: 100%; } }
+
+@media only screen and (max-width: 320px) {
+  header {
+    max-height: 500px;
+    background-color: saddlebrown; }
+  .BarraDeNav {
+    height: 100px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 70% 30%;
+    grid-template-areas: ". . ." "secciones secciones secciones"; }
+  .Logo {
+    display: flex;
+    grid-column: 2/3;
+    justify-content: center; }
+  .Logo img {
+    margin: 10px 0px;
+    width: 50%; }
+  .BarraDeNav ul {
+    display: flex;
+    grid-area: secciones;
+    height: 30px;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 0px;
+    justify-content: center;
+    padding: 0px 0px 0px 0px; }
+  .BarraDeNav ul li {
+    display: inline-block;
+    margin: 0px 0px;
+    padding: 0px 0px 0px 0px; }
+  .BarraDeNav ul li a {
+    text-decoration: none;
+    font-size: 10px;
+    color: khaki;
+    padding: 5px 5px; }
+  .Inicio {
+    display: grid;
+    height: 850px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 40% 10% 25% 25%;
+    background-image: linear-gradient(to bottom, black, #00082b);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-template-areas: "portada portada portada portada" ". titulo titulo ." ". video video ." ". video video ."; }
+  .inicio__carrusel1 {
+    grid-area: portada; }
+  .inicio__carrusel1 img {
+    width: 100%; }
+  .inicio__Video {
+    grid-area: video;
+    width: 100%;
+    height: 100%; }
+  .inicio__Video video {
+    width: 100%;
+    height: 100%; } }
+
+footer {
+  background-color: saddlebrown; }
+
+.bucle-1 {
+  font-size: 10px; }
+
+.bucle-2 {
+  font-size: 20px; }
+
+.bucle-3 {
+  font-size: 30px; }
+
+.facebook {
+  font-size: 50px; }
+
+.instagram {
+  font-size: 50px; }
+
+.mail {
+  font-size: 50px; }
+
+.mapa {
+  font-size: 50px; }
+
+.disco {
+  font-size: 50px; }
+
+.cara {
+  font-size: 50px; }
+
+.Inicio {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 40% 10% 25% 25%;
+  background-image: linear-gradient(to bottom, black, #00082b);
+  background-size: 100vh 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-template-areas: "portada portada portada portada" ". titulo titulo ." ". video video ." ". video video ."; }
+
+.inicio__carrusel1 {
+  grid-area: portada; }
+  .inicio__carrusel1 img {
+    width: 100%; }
+
+.inicio__Video {
+  grid-area: video;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  justify-content: center; }
+
+.Innovacion1 {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center; }
+  .Innovacion1 .Innovacion1__CajaPlasmidos {
+    height: 800px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    justify-content: center; }
+    .Innovacion1 .Innovacion1__CajaPlasmidos input {
+      margin: 30px;
+      max-height: 150px; }
+
+.ContenedorPantalla {
+  display: flex;
+  justify-content: center;
+  padding-left: 10%; }
+  .ContenedorPantalla .ContenedorPantalla__Pantalla {
+    width: 100%;
+    height: 75%; }
+
+.TextosPlasmidos {
+  color: cornsilk; }
+
+.carouselExampleControls {
+  width: 50%; }
+
+.cultura {
+  display: grid;
+  grid-template-columns: 6fr 4fr 6fr;
+  grid-template-rows: 105vh 105vh;
+  background-image: url(/multimedia/w0580_1s_Gold-diamond-chevron-motif-art-deco-wallpaper-Ellington-Suite_Repeating-Pattern-Sample-1.jpg);
+  background-size: 200vh 200vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.shows {
+  grid-column: 1/4;
+  margin-top: 10rem;
+  grid-gap: 3rem;
+  display: flex;
+  justify-content: center; }
+  .shows input {
+    height: 600px; }
+
+.musica {
+  margin-top: 3rem;
+  justify-items: center;
+  text-align: center; }
+  .musica img {
+    width: 485px;
+    height: 500px;
+    transition: all 1s; }
+
+.musica img:hover {
+  width: 535px;
+  height: 530px; }
+
+.Postularse {
+  display: grid;
+  height: 2000px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 30% 70%;
+  grid-template-areas: ". form form ." ". cierre cierre ."; }
+
+.Formulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+  grid-area: form;
+  font-size: 100%;
+  color: cornsilk;
+  justify-items: center; }
+
+.LogoCierre {
+  grid-area: cierre;
+  display: flex;
+  justify-content: center; }
+  .LogoCierre .LogoCierre__end {
+    max-width: 300px;
+    max-height: 300px; }

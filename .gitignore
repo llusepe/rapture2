@@ -1,0 +1,3 @@
+echo models/cifar10_gradcam.h5 >> .gitignore
+node_modules
+intro.mp4

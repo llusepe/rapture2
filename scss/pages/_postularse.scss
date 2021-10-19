@@ -1,0 +1,31 @@
+.Postularse{
+    display: grid;
+    height: 2000px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30% 70%;
+    grid-template-areas: 
+    ". form form ."
+    ". cierre cierre ."
+    ;
+}
+.Formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    grid-area: form;
+    font-size: 100%;
+    color: cornsilk;
+    justify-items: center;
+
+}
+.LogoCierre{
+    grid-area: cierre;
+    display: flex;
+    justify-content: center;
+
+    .LogoCierre__end{
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
+

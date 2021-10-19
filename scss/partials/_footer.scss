@@ -1,0 +1,22 @@
+footer {
+    background-color: saddlebrown;
+    
+}
+
+
+@for $bucle from 1 through 3 {
+    .bucle-#{$bucle} {font-size: 10px * $bucle;
+    }     
+}
+
+@each $contacto in facebook, instagram, mail {
+    .#{$contacto} {font-size: 50px;}
+    
+}
+
+$lista_de_cosas: (mapa, disco, cara);
+
+@each $tam in $lista_de_cosas {
+    .#{$tam} {font-size: 50px}
+    
+}

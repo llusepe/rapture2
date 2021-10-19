@@ -1,0 +1,67 @@
+/* HEADER */
+
+
+
+header {
+    max-height: 500px;  
+    background-color: saddlebrown;
+}
+.BarraDeNav {
+    height: 100px; ;
+    display: flex;
+    ul {
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+        list-style: none;
+        font-size: 0;
+        text-decoration: none;
+        text-align: center;
+        li {
+            display: inline-block;
+            margin: 20px;
+            a {
+                padding: 7px 14px;
+                text-decoration: none;
+                font-size: xx-large;
+                color: khaki;
+            }
+        }
+    }
+}
+
+.Logo img {
+    margin: 7px 5px;
+    width: 25%;
+}
+
+
+
+
+
+.BarraDeNav ul ul {
+    position: absolute;
+    display: none;
+}
+
+.BarraDeNav ul ul li {
+    display: block;
+}
+
+.BarraDeNav ul li ul li a {
+    color: black;
+;
+    font-size: 200%;
+}
+
+.BarraDeNav ul li:hover > ul{
+    display: block;
+    background-color: saddlebrown;
+    width: 150px;
+}
+
+table thead {
+    height: 500px ;
+    color: saddlebrown;
+}
+/* /HEADER */

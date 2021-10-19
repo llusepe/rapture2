@@ -1,0 +1,16 @@
+// imports
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
+// globas
+@import "./globals";
+
+// partials
+@import "./partials/header";
+@import "./partials/media";
+@import "./partials/footer";
+
+// pages
+ @import "./pages/home";
+ @import "./pages/innovacion";
+ @import "./pages/cultura";
+ @import "./pages/ciudadanos";
+ @import "./pages/postularse";

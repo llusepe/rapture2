@@ -1,0 +1,44 @@
+.Inicio{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 40% 10% 25% 25%;
+    background-image:linear-gradient(to bottom, black, #00082b);
+    background-size: 100vh 100vh;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-template-areas:  
+    "portada portada portada portada"
+    ". titulo titulo ."
+    ". video video ."
+    ". video video ."
+    ;
+    
+}
+
+.inicio__carrusel1 {
+    grid-area: portada;
+
+    img {
+        width: 100%
+        ;
+    
+    }
+}
+
+.inicio__Video{
+    grid-area: video;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-content: center; 
+    justify-content: center;
+
+
+
+
+    }
+
+
+
+
