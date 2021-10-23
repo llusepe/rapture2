@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap");
 * {
   margin: 0;
@@ -5,7 +6,6 @@
   box-sizing: border-box; }
 
 main {
-  background-image: linear-gradient(to bottom, black, #00082b);
   background-size: 200vh 200vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@ h2 {
 /* HEADER */
 header {
   max-height: 500px;
-  background-color: saddlebrown; }
+  background-color: black; }
 
 .BarraDeNav {
   height: 100px;
@@ -47,7 +47,7 @@ header {
 
 .Logo img {
   margin: 7px 5px;
-  width: 25%; }
+  width: 100%; }
 
 .BarraDeNav ul ul {
   position: absolute;
@@ -62,24 +62,24 @@ header {
 
 .BarraDeNav ul li:hover > ul {
   display: block;
-  background-color: saddlebrown;
+  background-color: black;
   width: 150px; }
 
 table thead {
   height: 500px;
-  color: saddlebrown; }
+  color: black; }
 
 /* /HEADER */
 @media only screen and (min-width: 1200px) {
   header {
     max-height: 500px;
-    background-color: saddlebrown; }
+    background-color: black; }
   .BarraDeNav {
     height: 100px;
     display: flex; }
   .Logo img {
     margin: 15px 8px;
-    width: 80%; }
+    width: 100%; }
   .BarraDeNav ul {
     justify-content: center;
     height: 100px;
@@ -95,7 +95,7 @@ table thead {
     padding: 7px 14px;
     text-decoration: none;
     font-size: 30px;
-    color: khaki; }
+    color: #e7dd87; }
   .Inicio {
     display: grid;
     height: 850px;
@@ -121,13 +121,13 @@ table thead {
 @media only screen and (max-width: 780px) {
   header {
     max-height: 500px;
-    background-color: saddlebrown; }
+    background-color: black; }
   .BarraDeNav {
     height: 100px;
     display: flex; }
   .Logo img {
     margin: 15px 8px;
-    width: 80%; }
+    width: 100%; }
   .BarraDeNav ul {
     justify-content: center;
     height: 100px;
@@ -169,7 +169,7 @@ table thead {
 @media only screen and (max-width: 320px) {
   header {
     max-height: 500px;
-    background-color: saddlebrown; }
+    background-color: black; }
   .BarraDeNav {
     height: 100px;
     display: grid;
@@ -224,35 +224,29 @@ table thead {
     width: 100%;
     height: 100%; } }
 
-footer {
-  background-color: saddlebrown; }
+.conteiner {
+  background-color: black;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr; }
 
-.bucle-1 {
-  font-size: 10px; }
+.Derechos {
+  text-align: center;
+  color: #e7dd87;
+  font-size: 20px;
+  margin-top: 120px; }
 
-.bucle-2 {
-  font-size: 20px; }
+.Mapa {
+  display: flex;
+  justify-content: center; }
+  .Mapa iframe {
+    margin-top: 25px; }
 
-.bucle-3 {
-  font-size: 30px; }
-
-.facebook {
-  font-size: 50px; }
-
-.instagram {
-  font-size: 50px; }
-
-.mail {
-  font-size: 50px; }
-
-.mapa {
-  font-size: 50px; }
-
-.disco {
-  font-size: 50px; }
-
-.cara {
-  font-size: 50px; }
+.ContactoFoot {
+  text-align: center;
+  color: #e7dd87;
+  font-size: 20px;
+  margin-top: 120px; }
 
 .Inicio {
   display: grid;
@@ -278,8 +272,22 @@ footer {
   align-content: center;
   justify-content: center; }
 
+main {
+  background-image: linear-gradient(to bottom, #00051d, black);
+  background-size: 200vh 200vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.TituloInnovacion {
+  text-align: center; }
+  .TituloInnovacion h2 {
+    padding-top: 50px;
+    color: #e7dd87;
+    font-size: 60px; }
+
 .Innovacion1 {
-  margin-top: 10rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: center; }
   .Innovacion1 .Innovacion1__CajaPlasmidos {
@@ -300,51 +308,114 @@ footer {
   .ContenedorPantalla .ContenedorPantalla__Pantalla {
     width: 100%;
     height: 75%; }
+  .ContenedorPantalla .TextosPlasmidos {
+    position: absolute;
+    margin-top: 6.7%;
+    overflow: hidden; }
 
-.TextosPlasmidos {
-  color: cornsilk; }
+.titulosección {
+  text-align: center; }
+  .titulosección .titulosección__elfuturo {
+    padding-top: 50px;
+    color: #e7dd87;
+    font-size: 60px; }
 
-.carouselExampleControls {
-  width: 50%; }
+.ParrafoSeccion {
+  text-align: center;
+  color: #e7dd87;
+  font-size: 30px; }
+
+.carrusel {
+  display: flex;
+  width: 1500px;
+  align-content: center;
+  justify-content: center;
+  margin-left: 200px; }
+  .carrusel .carousel-item {
+    height: 900px;
+    width: 1200px; }
+    .carrusel .carousel-item img {
+      height: 100%;
+      width: 100%; }
 
 .cultura {
   display: grid;
   grid-template-columns: 6fr 4fr 6fr;
-  grid-template-rows: 105vh 105vh;
-  background-image: url(/multimedia/w0580_1s_Gold-diamond-chevron-motif-art-deco-wallpaper-Ellington-Suite_Repeating-Pattern-Sample-1.jpg);
+  grid-template-rows: 80vh 105vh;
+  background-image: linear-gradient(to bottom, #00051d, black);
   background-size: 200vh 200vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
 
+.ShowsTitulo {
+  text-align: center;
+  color: #e7dd87;
+  font-size: 60px;
+  padding-top: 30px; }
+
 .shows {
   grid-column: 1/4;
-  margin-top: 10rem;
+  margin-top: 5rem;
   grid-gap: 3rem;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  height: 500px; }
   .shows input {
-    height: 600px; }
+    height: 500px;
+    width: 335px;
+    padding: 0px; }
 
 .musica {
-  margin-top: 3rem;
+  margin-top: 1rem;
   justify-items: center;
   text-align: center; }
   .musica img {
     width: 485px;
     height: 500px;
     transition: all 1s; }
+  .musica h2 {
+    color: #e7dd87;
+    font-size: 60px;
+    margin-bottom: 30px; }
 
 .musica img:hover {
   width: 535px;
   height: 530px; }
 
+main {
+  background-image: linear-gradient(to bottom, #00051d, black);
+  background-size: 200vh 200vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.CiudadanosIlustres {
+  text-align: center;
+  color: #e7dd87;
+  font-size: 60px;
+  padding-top: 30px; }
+
+.Best {
+  display: flex;
+  justify-content: center; }
+
 .Postularse {
   display: grid;
   height: 2000px;
   grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 30% 70%;
-  grid-template-areas: ". form form ." ". cierre cierre ."; }
+  grid-template-rows: 10% 40% 20%;
+  grid-template-areas: ". titulo titulo ." ". form form ." ". cierre cierre ."; }
+
+.TituloPostularse {
+  grid-area: titulo;
+  display: flex;
+  text-align: center;
+  justify-content: center; }
+  .TituloPostularse h2 {
+    padding-top: 50px;
+    color: #e7dd87;
+    font-size: 60px; }
 
 .Formulario {
   display: flex;

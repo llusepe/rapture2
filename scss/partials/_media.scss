@@ -1,7 +1,7 @@
 @media only screen and (min-width:1200px) {
     header {
         max-height: 500px;  
-        background-color: saddlebrown;
+        background-color: black;
     }
     .BarraDeNav {
         height: 100px; 
@@ -10,7 +10,7 @@
     
     .Logo img {
         margin: 15px 8px;
-        width: 80%;
+        width: 100%;
     }
     
     .BarraDeNav ul {
@@ -32,7 +32,7 @@
         padding: 7px 14px;
         text-decoration: none;
         font-size: 30px;
-        color: khaki;
+        color: rgb(231, 221, 135);
     }
     .Inicio{
         display: grid;
@@ -81,7 +81,7 @@
 @media only screen and (max-width:780px) {
     header {
         max-height: 500px;  
-        background-color: saddlebrown;
+        background-color: black;
     }
     .BarraDeNav {
         height: 100px; 
@@ -90,7 +90,7 @@
     
     .Logo img {
         margin: 15px 8px;
-        width: 80%;
+        width: 100%;
     }
     
     .BarraDeNav ul {
@@ -162,7 +162,7 @@
 @media only screen and (max-width:320px) {
     header {
         max-height: 500px;  
-        background-color: saddlebrown;
+        background-color: black;
     }
     .BarraDeNav {
         height: 100px;

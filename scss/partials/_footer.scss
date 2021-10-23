@@ -1,22 +1,31 @@
-footer {
-    background-color: saddlebrown;
+.conteiner {
+    background-color: black;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr
+
+}
+
+.Derechos{
+    text-align: center;
+    color: rgb(231, 221, 135);
+    font-size: 20px;
+    margin-top: 120px
+}
+
+.Mapa{
+    display: flex;
+    justify-content: center;
+    iframe{
+        margin-top: 25px;
+    }
     
 }
 
+.ContactoFoot{
+    text-align: center;
+    color: rgb(231, 221, 135);
+    font-size: 20px;
+    margin-top: 120px
 
-@for $bucle from 1 through 3 {
-    .bucle-#{$bucle} {font-size: 10px * $bucle;
-    }     
-}
-
-@each $contacto in facebook, instagram, mail {
-    .#{$contacto} {font-size: 50px;}
-    
-}
-
-$lista_de_cosas: (mapa, disco, cara);
-
-@each $tam in $lista_de_cosas {
-    .#{$tam} {font-size: 50px}
-    
 }

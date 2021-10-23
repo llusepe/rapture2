@@ -1,36 +1,51 @@
 .cultura{
     display: grid;
     grid-template-columns: 6fr 4fr 6fr;
-    grid-template-rows: 105vh 105vh;
-    background-image: url(/multimedia/w0580_1s_Gold-diamond-chevron-motif-art-deco-wallpaper-Ellington-Suite_Repeating-Pattern-Sample-1.jpg);
+    grid-template-rows: 80vh 105vh;
+    background-image:linear-gradient(to bottom, #00051d, black,);
     background-size: 200vh 200vh;
     background-size:cover ;
     background-repeat: no-repeat;
     background-position: center;   
 }
 
+.ShowsTitulo{
+    text-align: center;
+    color: rgb(231, 221, 135);
+    font-size: 60px;
+    padding-top: 30px;
+}
 
 .shows{
     grid-column: 1/4;
-    margin-top: 10rem ;
+    margin-top: 5rem ;
     grid-gap: 3rem ;
     display: flex;
     justify-content: center;
+    height: 500px;
     input{
-        height: 600px;
+        height: 500px;
+        width: 335px;
+        padding: 0px;
     }
+    
     
 }
 
 
 .musica{
-    margin-top: 3rem;
+    margin-top: 1rem;
     justify-items: center;
     text-align: center;
     img{
         width: 485px;
         height: 500px;
         transition: all 1s;
+    }
+    h2{
+        color: rgb(231, 221, 135);
+        font-size: 60px;
+        margin-bottom: 30px;
     }
     
 }
