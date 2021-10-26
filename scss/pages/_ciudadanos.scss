@@ -19,3 +19,127 @@ main{
     display: flex;
     justify-content: center;
 }
+
+.Destacados{
+    grid-column: 1/4;
+    margin-top: 5rem ;
+    grid-gap: 3rem ;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    input{
+        height: 500px;
+        width: 335px;
+        padding: 0px;
+    }
+       
+}
+.Langford{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 335px;
+    div{
+        text-align: center;
+        align-items: center;
+        position: absolute;
+        padding-left: 25px;
+        color:white;
+        visibility: hidden;
+
+    }
+}
+
+.Langford:hover{
+    input{
+        opacity: 30%;
+        }
+
+    div{
+        visibility: visible;
+        }
+    }
+    
+    .Fontaine{
+        display: flex;
+        align-items: center;
+        height: 500px;
+        width: 335px;
+        div{
+            text-align: center;
+            align-items: center;
+            position: absolute;
+            padding-left: 25px;
+            color:white;
+            visibility: hidden;
+            width: 300px;
+    
+        }
+    }
+    
+    .Fontaine:hover{
+        input{
+            opacity: 30%;
+            }
+    
+        div{
+            visibility: visible;
+            }
+        }
+
+        .Tenembuam{
+            display: flex;
+            align-items: center;
+            height: 500px;
+            width: 335px;
+            div{
+                text-align: center;
+                align-items: center;
+                position: absolute;
+                padding-left: 25px;
+                color:white;
+                visibility: hidden;
+                width: 300px;
+        
+            }
+        }
+        
+        .Tenembuam:hover{
+            input{
+                opacity: 30%;
+                }
+        
+            div{
+                visibility: visible;
+                }
+            }
+
+            
+        .Cohen{
+            display: flex;
+            align-items: center;
+            height: 500px;
+            width: 335px;
+            div{
+                text-align: center;
+                align-items: center;
+                position: absolute;
+                padding-left: 25px;
+                color:white;
+                visibility: hidden;
+                width: 300px;
+        
+            }
+        }
+        
+        .Cohen:hover{
+            input{
+                opacity: 30%;
+                }
+        
+            div{
+                visibility: visible;
+                }
+            }
+
+

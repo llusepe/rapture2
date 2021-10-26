@@ -33,7 +33,8 @@ main{
 
         input{
             margin: 30px;
-            max-height: 150px; 
+            max-height: 600px;
+            margin-top: 75px; 
 
         }
     }
@@ -46,15 +47,56 @@ main{
 
     .ContenedorPantalla__Pantalla {
         width: 100%;
-        height: 75%;
+        height: 80%;
     }
-    .TextosPlasmidos{
-        position: absolute;
-        margin-top: 6.7%;
-        overflow: hidden;
-        }
 
 }
+
+.TextosPlasmidos{
+    position: absolute;
+    margin-top: 6.7%;
+    overflow: hidden;
+}
+
+
+#VideoPlasmidos1{
+    display: none;
+}
+
+#VideoPlasmidos1:target{
+    display: block;
+  }
+
+.TextosPlasmidos2{
+    position: absolute;
+    margin-top: 6.7%;
+    overflow: hidden;
+}
+
+#VideoPlasmidos2{
+    display: none;
+}
+
+#VideoPlasmidos2:target{
+    display: block;
+  }
+
+
+
+.TextosPlasmidos3{
+    position: absolute;
+    margin-top: 6.7%;
+    overflow: hidden;
+}
+
+#VideoPlasmidos3{
+    display: none;
+}
+
+#VideoPlasmidos3:target{
+    display: block;
+  }
+
 
 .titulosección{
     text-align: center;
@@ -88,4 +130,344 @@ main{
 
 }
 
+@media only screen and (max-width:370px){
+    main{
+    width: 100%;
+    background-image:linear-gradient(to bottom, #00051d, black,);
+    background-size: 200vh 200vh;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.TituloInnovacion{
+    text-align: center;
+    h2{
+        padding-top: 50px;
+        color: rgb(231, 221, 135);
+        font-size: 30px;
+    }
+}
+
+
+.Innovacion1 {
+    margin-top: 5rem;
+    display: grid;
+    align-items: center ;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+
+    .Innovacion1__CajaPlasmidos {
+        height: 300px;
+        width: 360px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+        justify-content: center ;
+        align-items: center;
+        justify-items: center;
+        
+        a{
+            height: 309px;
+            max-height: 600px;
+            width: 200px;
+            margin-top: 75px;
+
+
+        }
+
+        input{
+            margin: 0px;
+            max-height: 600px;
+            width: 200px;
+            padding: 0%; 
+        }
+    }
+}
+
+.ContenedorPantalla{
+    display: flex;
+    justify-content: end;
+    padding-left: 0%;
+    justify-content: center;
+
+    .ContenedorPantalla__Pantalla {
+        width: 80%;
+        height: 75%;
+        
+    }
+
+}
+
+.TextosPlasmidos{
+    position: absolute;
+    margin-top: 6.7%;
+    overflow: hidden;
+
+    
+    .VideoPlasmidos1{
+        height: 100%;
+        width: 100%;
+        
+    }
+}
+
+
+
+
+#VideoPlasmidos1{
+    display: none;
+    margin-left: 72px;
+    width: 60%;
+    height: 30%;
+}
+
+#VideoPlasmidos1:target{
+    display: block;
+  }
+
+
+
+
+.TextosPlasmidos2{
+    position: absolute;
+    margin-top: 6.7%;
+    overflow: hidden;
+}
+
+#VideoPlasmidos2{
+    display: none;
+    margin-left: 72px;
+    width: 60%;
+    height: 30%;;
+}
+
+#VideoPlasmidos2:target{
+    display: block;
+  }
+
+
+
+.TextosPlasmidos3{
+    position: absolute;
+    margin-top: 6.7%;
+    overflow: hidden;
+}
+
+#VideoPlasmidos3{
+    display: none;
+    margin-left: 72px;
+    width: 60%;
+    height: 30%;
+}
+
+#VideoPlasmidos3:target{
+    display: block;
+  }
+
+
+.titulosección{
+    text-align: center;
+    .titulosección__elfuturo{
+        padding-top: 50px;
+        color: rgb(231, 221, 135);
+        font-size: 30px;
+    }
+}
+
+.ParrafoSeccion{
+    text-align: center;
+    color: rgb(231, 221, 135);
+    font-size: 15px;
+
+}
+.carrusel{
+    display: flex;
+   width:360px;
+   margin-left: 0%;
+
+  
+    .carousel-item{
+        height: 250px;
+        width: 360px;
+        img{
+            height: 100%;
+            width: 100%; 
+        }
+    }
+
+}
+}
+
+@media only screen and (max-width:780px){
+    main{
+    width: 100%;
+    background-image:linear-gradient(to bottom, #00051d, black,);
+    background-size: 200vh 200vh;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.TituloInnovacion{
+    text-align: center;
+    h2{
+        padding-top: 50px;
+        color: rgb(231, 221, 135);
+        font-size: 30px;
+    }
+}
+
+
+.Innovacion1 {
+    margin-top: 5rem;
+    display: grid;
+    align-items: center ;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+
+    .Innovacion1__CajaPlasmidos {
+        height: 300px;
+        width: 780px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 200px;
+         
+
+        a{
+            height: 309px;
+            max-height: 600px;
+            width: 200px;
+            margin-top: 75px;
+            margin-right: 33px;
+
+
+        }
+
+        input{
+            margin: 0px;
+            max-height: 600px;
+            width: 225px;
+            padding: 0%;
+            
+        }
+    }
+}
+
+.ContenedorPantalla{
+    display: flex;
+    justify-content: end;
+    padding-left: 0%;
+    justify-content: center;
+
+    .ContenedorPantalla__Pantalla {
+        width: 80%;
+        height: 75%;
+        
+    }
+
+}
+
+.TextosPlasmidos{
+    position: absolute;
+    margin-top: 6.7%;
+    overflow: hidden;
+
+    
+    .VideoPlasmidos1{
+        height: 100%;
+        width: 100%;
+        
+    }
+}
+
+
+
+
+#VideoPlasmidos1{
+    display: none;
+    margin-top: 20px;
+    height: 260px;
+    width: 460px;
+
+}
+
+#VideoPlasmidos1:target{
+    display: block;
+  }
+
+
+
+
+.TextosPlasmidos2{
+    position: absolute;
+    margin-top: 6.7%;
+    overflow: hidden;
+}
+
+#VideoPlasmidos2{
+    display: none;
+    margin-top: 20px;
+    height: 260px;
+    width: 460px;
+}
+
+#VideoPlasmidos2:target{
+    display: block;
+  }
+
+
+
+.TextosPlasmidos3{
+    position: absolute;
+    margin-top: 6.7%;
+    overflow: hidden;
+}
+
+#VideoPlasmidos3{
+    display: none;
+    margin-top: 20px;
+    height: 260px;
+    width: 460px;
+}
+
+#VideoPlasmidos3:target{
+    display: block;
+  }
+
+
+.titulosección{
+    text-align: center;
+    .titulosección__elfuturo{
+        padding-top: 50px;
+        color: rgb(231, 221, 135);
+        font-size: 30px;
+    }
+}
+
+.ParrafoSeccion{
+    text-align: center;
+    color: rgb(231, 221, 135);
+    font-size: 15px;
+
+}
+.carrusel{
+    display: flex;
+   width:768px;
+   margin-left: 0%;
+
+  
+    .carousel-item{
+        height: 450px;
+        width: 768px;
+        img{
+            height: 100%;
+            width: 100%; 
+        }
+    }
+
+}
+}
 

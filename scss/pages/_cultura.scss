@@ -1,12 +1,13 @@
 .cultura{
     display: grid;
     grid-template-columns: 6fr 4fr 6fr;
-    grid-template-rows: 80vh 105vh;
+    grid-template-rows: 80vh 30vh 80vh;
     background-image:linear-gradient(to bottom, #00051d, black,);
     background-size: 200vh 200vh;
     background-size:cover ;
     background-repeat: no-repeat;
-    background-position: center;   
+    background-position: center;
+    
 }
 
 .ShowsTitulo{
@@ -28,15 +29,34 @@
         width: 335px;
         padding: 0px;
     }
-    
-    
 }
 
+.RaptureRecordsTitutlo{
+    color: rgb(231, 221, 135);
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.RaptureRecords{
+    display: flex;
+    grid-column: 2/3;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+.Records{
+    grid-column: 1/4;
+    display: flex;
+}
 
 .musica{
     margin-top: 1rem;
     justify-items: center;
     text-align: center;
+
     img{
         width: 485px;
         height: 500px;
@@ -50,8 +70,80 @@
     
 }
 
-
 .musica img:hover {
     width: 535px;
     height: 530px;
+}
+
+@media only screen and (max-width:370px){
+    .cultura{
+
+        background-image:linear-gradient(to bottom, #00051d, black,);
+        background-size: 200vh 200vh;
+        background-size:cover ;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+    }
+    
+    .ShowsTitulo{
+        text-align: center;
+        color: rgb(231, 221, 135);
+        font-size: 60px;
+        padding-top: 30px;
+    }
+    
+    .shows{
+
+        margin-top: 5rem ;
+        height: 100%;
+        input{
+            height: 500px;
+            width: 200px;
+            padding: 0px;
+        }
+    }
+    
+    .RaptureRecordsTitutlo{
+        color: rgb(231, 221, 135);
+        font-size: 60px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .RaptureRecords{
+        grid-column: 2/3;
+        justify-content: center;
+        width: 100%;
+    
+    }
+    
+    
+    .Records{
+        grid-column: 1/4;
+        display: flex;
+    }
+    
+    .musica{
+        margin-top: 1rem;
+        justify-items: center;
+        text-align: center;
+    
+        img{
+            width: 485px;
+            height: 500px;
+            transition: all 1s;
+        }
+        h2{
+            color: rgb(231, 221, 135);
+            font-size: 60px;
+            margin-bottom: 30px;
+        }
+        
+    }
+    
+    .musica img:hover {
+        width: 535px;
+        height: 530px;
+}
 }
